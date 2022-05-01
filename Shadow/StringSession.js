@@ -5,7 +5,7 @@ class StringSession {
     }
 
     deCrypt(string = undefined) {
-        if ('_INRL_SESSION' in process.env && string === undefined) {
+        if ('_SHADOW_SESSION' in process.env && string === undefined) {
             string = process.env.STRING_SESSION;
         } else if (string !== undefined) {
             if (fs.existsSync(string)) {
@@ -20,7 +20,7 @@ class StringSession {
     }
 
     createStringSession(dict) {
-        return 'inrl:::' + Buffer.from(JSON.stringify(dict)).toString('base64');
+        return 'Shadow:::' + Buffer.from(JSON.stringify(dict)).toString('base64');
     }
 }
 

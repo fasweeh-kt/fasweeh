@@ -2,7 +2,7 @@
   "name": "inrlbot",
   "version": "1.0.0",
   "description": "inrlbot is the Modified Version of WhatsAsena.",
-  "main": "./index.js/bot.js",
+  "main": "./Shadow/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },

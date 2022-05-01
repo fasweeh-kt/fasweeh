@@ -1,14 +1,14 @@
 {
-  "name": "Shadow-Bot",
-  "version": "7.3.6",
-  "description": "Shadow is the Modified Version of WhatsAsena.",
-  "main": "./Shadow-Bot/bot.js",
+  "name": "inrlbot",
+  "version": "1.0.0",
+  "description": "inrlbot is the Modified Version of WhatsAsena.",
+  "main": "./index.js/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SPARK-SHADOW/Shadow-Bot.git"
+    "url": "git+https://github.com/fasweeh-kt/fasweeh.git"
   },
   "keywords": [
     "whatsapp",
@@ -21,9 +21,9 @@
   "developer": "@SPARK-SHADOW",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/SPARK-SHADOW/Shadow-Bot/issues"
+    "url": "https://github.com/fasweeh-kt/fasweeh/issues"
   },
-  "homepage": "https://github.com/SPARK-SHADOW/Shadow-Bot#readme",
+  "homepage": "https://github.com/fasweeh-kt/fasweeh#readme",
   "dependencies": {
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-thiccy": "1.2.1",

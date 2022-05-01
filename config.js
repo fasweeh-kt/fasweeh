@@ -42,7 +42,7 @@ module.exports = {
     PLKIMG: process.env.LIST_IMG === undefined ? 'https://i.imgur.com/zdcqaaG.jpeg' : process.env.LIST_IMG,
     WEL_GIF: process.env.WEL_GIF === undefined ? 'https://i.imgur.com/nErXUGj.mp4' : process.env.WEL_GIF,
     GIF_BYE: process.env.GIF_BYE === undefined ? 'https://i.imgur.com/Z1jCYGN.mp4' : process.env.GIF_BYE,
-    BOTPLK: process.env.BOT_NAME === undefined ? 'SHADOW BOT' : process.env.BOT_NAME,
+    BOTPLK: process.env.BOT_NAME === undefined ? 'INRL BOT' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     TALKING_PINKY: process.env.TALKING_PINKY === undefined ? 'false' : process.env.TALKING_PINKY,
     STICKERP: process.env.STICKER_REPLY === undefined ? false : convertToBool(process.env.STICKER_REPLY),
